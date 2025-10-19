@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+    env_file:
+      - .env
+    ports:
+      - "${APP_PORT:-8000}:80"
+    volumes:
+      - fin-reports-db:/app/data
+    restart: unless-stopped
+
+volumes:
+  fin-reports-db:

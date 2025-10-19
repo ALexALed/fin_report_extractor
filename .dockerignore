@@ -1,0 +1,12 @@
+.pre-commit-config.yaml
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+.env
+fin_reports.db
+.uv_cache
+.pytest_cache

@@ -1,0 +1,6 @@
+database:
+  url: "sqlite+aiosqlite:///./fin_reports.db"
+
+api_keys:
+  openai: ""
+  service: ""

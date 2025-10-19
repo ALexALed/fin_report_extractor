@@ -1,0 +1,15 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+.env
+fin_reports.db
+test_fin_reports.db
+.uv_cache
+.pytest_cache
+.ruff_cache
+.uv-cache
+.mypy_cache
