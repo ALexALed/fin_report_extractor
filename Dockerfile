@@ -20,6 +20,8 @@ RUN uv sync --no-dev --frozen
 
 COPY . .
 
+VOLUME /app/data
+
 EXPOSE 80
 
 CMD ["uv", "run", "--frozen", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
